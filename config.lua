@@ -2,10 +2,10 @@ Config = {}
 Config.Ped = "a_m_m_business_01"
 Config.Debug = false 
 
-Config.Vozila = {
-    ["vozilo1"] = { spawnkod = "sultan", cena = 300 },
-    ["vozilo2"] = { spawnkod = "bf400", cena =  150 },
-    ["vozilo3"] = { spawnkod = "zentorno", cena = 300 },
+Config.RentVozila = {
+    {spawnKod = 'sultan', label = 'Sultan', cena = 300},
+    {spawnKod = 'bf400', label = 'BF400', cena = 300},
+    {spawnKod = 'zentorno', label = 'Zentorno', cena = 300},
 }
 
 Config.Renta = {
