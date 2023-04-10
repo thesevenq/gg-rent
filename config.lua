@@ -1,5 +1,5 @@
 Config = {}
-Config.Ped = "a_m_m_business_01"
+Config.Ped = "a_m_m_farmer_01"
 Config.Debug = false 
 
 Config.Vozila = {
