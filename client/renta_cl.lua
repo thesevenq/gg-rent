@@ -7,6 +7,10 @@ end
 
 CreateThread(function()
     for k, v in pairs(Config.Renta) do 
+        RequestModel(GetHashKey(Config.Ped))
+        while not HasModelLoaded(GetHashKey(Config.Ped)) do
+        Wait(1)
+        end
         pedrenta = CreatePed(4, Config.Ped, v.coords, v.heading, false, true)
         FreezeEntityPosition(pedrenta, true) 
         SetEntityInvincible(pedrenta, true)
